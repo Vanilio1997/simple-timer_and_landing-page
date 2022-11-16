@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1e1e1e;
+    font-family: 'Inter', sans-serif;
+    color: #e5e6eb;
+}
+.project_container{
+    padding: 0 150px;
+}
+.header_container{
+    margin-top: 46px;
+    /* font-family:'Montserrat'; */
+}
+.half_container{
+ display: flex;
+}
+.left_side_screen{
+    flex: 2;
+}
+.right_side_screen{
+    flex: 1;
+    text-align: right;
+}
+
+.left_side_header_container{
+    display: flex;
+}
+
+.menu_important_container{
+    display: flex;
+    width: 500px;
+    gap: 30px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 52px;
+
+}
+li{
+    list-style-type: none;
+}
+
+.logo_discription{
+    margin-top: 10px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.right_side_header_contaner{
+    display: flex;
+    gap: 48px;
+    justify-content: flex-end
+}
+
+.links_socialNetwork{
+    display: flex;
+    gap: 34px;
+}
+
+.main_container{
+    margin-top: 94px;
+}
+
+.yellow_pink_gradient{
+    background: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.footer_container{
+    margin-top: 145px;
+}
+
+#get_consultation_btn{
+    height: 61px;
+    width: 262px;
+    background-color: #4077f3;
+    color: #e4e5ea;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 61px;
+}
+.slogan_big_text{
+
+
+
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #E4E5EA;
+
+}
+.slogan_gradient_text{
+    width: 247px;
+    height: 58px;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 58px;
+}
+.little_slogan_under_main_slogan{
+    display: inline-block;
+    margin-top: 30px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.offer_text{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+.offer_text_gradient{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    text-align: right;    
+}
+
+
+.orange_red_gradient{
+    background: linear-gradient(92deg, #f3920a , #f8030f 90%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.yellow_orange_gradient{
+    background: linear-gradient(92deg, #fcb045 60%, #f48e00 90.36%), #e4e5ea;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.target_container{
+    display: grid;
+    grid-template-columns: 135px 135px;
+    margin-top: 40px;
+    gap:35px;
+    justify-content: end
+}
+
+.target_discription{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+}
+
+.target h3{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.05em;   
+}
+
+.footer_container{
+    margin-top: 145px;
+}
+
+.footer_company_info{
+    display: grid;
+    grid-template-columns: 300px 200px 200px;
+}
+
+.footer_header_text{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #656566;
+}
+
+.footer_company_description{
+    margin-top: 20px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.footer_phoneNumber{
+    margin-top: 20px;
+}
+
+.links_socialNetwork_footer{
+    display: flex;
+    justify-content: flex-end
+
+}
+
+.purple_ball{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: calc( 50% + 150px);
+    top: -2px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+    filter: blur(5px);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+
+.big_red_ball{
+    position: absolute;
+    width: 83px;
+    height: 83px;
+    left: 519px;
+    top: 83px;
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+
+.small_red_ball{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 851px;
+    top: 547px;
+    
+    background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.48) 0%, rgba(212, 93, 93, 0.248) 59.67%, rgba(167, 49, 49, 0.264) 78.59%, rgba(130, 25, 25, 0.232) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2px);
+    border-radius: 50%;
+}
+
+.red_light{
+    position: absolute;
+    width: 311px;
+    height: 311px;
+    left: -102px;
+    top: 251px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.purple_light{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 602px;
+    top: -154px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.company_adress{
+    margin-top: 22px;
+}
+.company_privacy{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.company_prvacy_border{
+    display: inline-block;
+    border-bottom: 1px solid #e4e5ea;
+    margin-top: 5px;
+}
