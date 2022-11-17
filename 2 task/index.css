@@ -8,10 +8,13 @@ body{
     background-color: #1e1e1e;
     font-family: 'Inter', sans-serif;
     color: #e5e6eb;
+    /* min-width: 100vw; */
 }
 .project_container{
     padding: 0 150px;
 }
+
+
 .header_container{
     margin-top: 46px;
     /* font-family:'Montserrat'; */
@@ -33,8 +36,8 @@ body{
 
 .menu_important_container{
     display: flex;
+    justify-content: space-between  ;
     width: 500px;
-    gap: 30px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
@@ -179,10 +182,6 @@ li{
     letter-spacing: 0.05em;   
 }
 
-.footer_container{
-    margin-top: 145px;
-}
-
 .footer_company_info{
     display: grid;
     grid-template-columns: 300px 200px 200px;
@@ -206,6 +205,9 @@ li{
     letter-spacing: 0em;
     text-align: left;
 }
+.footer_company_description li{
+    margin: 10px 0;
+}
 
 .footer_phoneNumber{
     margin-top: 20px;
@@ -213,8 +215,9 @@ li{
 
 .links_socialNetwork_footer{
     display: flex;
-    justify-content: flex-end
-
+    justify-content: flex-end;
+    gap:16px;
+    margin-top: 23px;
 }
 
 .purple_ball{
@@ -278,12 +281,35 @@ li{
     filter: blur(196px);
 }
 
+.red_light_phone{
+    display: none;
+    position: absolute;
+    width: 211px;
+    height: 210px;
+    left: -55px;
+    top: 241px;
+    background: #961A1A;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
+.purple_light_phone{
+    position: absolute;
+    width: 259px;
+    height: 259px;
+    left: 258px;
+    top: 107px;
+    background: #833AB4;
+    opacity: 0.5;
+    filter: blur(196px);
+}
+
 .company_adress{
     margin-top: 22px;
 }
 .company_privacy{
     margin-top: 70px;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -295,4 +321,198 @@ li{
     display: inline-block;
     border-bottom: 1px solid #e4e5ea;
     margin-top: 5px;
+}
+
+.target_hidden{
+    display: none;
+}
+
+@media(max-width:1450px){
+    .project_container{
+        padding: 0 100px;
+    }
+    .menu_important_container{
+        width: 400px;
+    }
+}
+@media(max-width:1350px){
+    .project_container{
+        padding: 0 50px;
+    }
+    .menu_important_container{
+        width: 300px;
+    }
+}
+
+@media(max-width: 667px){
+    .big_red_ball{
+        display: none;
+    }
+    .red_light{
+        display: none;
+    }
+    .purple_light{
+        display: none;
+    }
+    .logo_Contaner{
+        display: none;
+    }
+    .right_side_header_contaner{
+        display: none;
+    }
+    .project_container{
+        padding: 0 ;
+    }
+    #get_consultation_btn{
+        display: none;
+    }
+    .half_container{
+        display: block;
+    }
+    .footer_company_info{
+        display: block;
+    }
+    .target_hidden{
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 16px;
+        letter-spacing: 0.05em;
+        text-align: left;
+        display: flex;
+    }
+    .target_show{
+        display: block;
+    }
+
+    .target_line{
+      width: 10px;
+      height: 1px;
+      background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+    }
+    
+    .menu_important_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 10px  0;
+    }
+    .left_side_header_container{
+        display: block;
+    }
+    .header_container{
+        margin: 0;
+        padding: 0 15px ;
+    }
+    .hiden_element{
+        display: none;
+    }
+    .main_container{
+        background: url(./logos/36032deebad5e588140d4b0e98d046c1.png);
+        mix-blend-mode: overlay;
+        text-align: center;
+        Opacity: 15%;
+        padding: 0 15px;
+        margin-top: 0px;
+    }
+    .phone_container{
+        background: radial-gradient(238.53% 189.02% at 3.2% 3.49%, #fff6e91a 0%, #1a1d231a 26.62%, rgba(26, 29, 35, 0.1) 52.1%, rgba(26, 29, 35, 0.01) 70.17%, rgba(26, 29, 35, 0) 100%) ;
+        backdrop-filter: blur(7.5px);
+    }
+    .purple_light_phone{
+        display: block;
+    }
+    .red_light_phone{
+        display: block;
+    }
+    .small_red_ball{
+        position: absolute;
+        width: 43px;
+        height: 43px;
+        left: 29px;
+        top: 402px;
+
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(255, 208, 208, 0.536) 0%, rgba(212, 93, 93, 0.264) 59.67%, rgba(167, 49, 49, 0.248) 78.59%, rgba(130, 25, 25, 0.248) 100%);
+        box-shadow: 3px 6px 27px -10px rgba(223, 125, 125, 0.25);
+        backdrop-filter: blur(2px);
+    }
+    .purple_ball{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 296px;
+        top: 236px;
+        background: radial-gradient(64% 64% at 27.25% 26.5%, rgba(236, 208, 255, 0.64) 0%, rgba(161, 93, 207, 0.24) 59.67%, rgba(118, 49, 164, 0.208) 78.59%, rgba(86, 24, 128, 0.232) 100%); 
+        box-shadow: 3px 6px 27px -10px rgba(177, 118, 217, 0.25);
+        filter: blur(5px);
+        backdrop-filter: blur(2px);
+    }
+    .slogan_big_text{
+        font-family: Inter;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 44px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-top: 40px;
+    }
+    .slogan_gradient_text{
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 36px;
+        line-height: 44px;
+        text-align: left;
+    }
+    .little_slogan_under_main_slogan{
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 15px;
+        display: block;        
+    }
+    .offer_text{
+        margin-top: 45px;
+        text-align: left;
+        display: block;  
+    }
+    .orange_red_gradient{
+        background: linear-gradient(92deg, #fcb045 20%, #f48e00 70.36%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .yellow_orange_gradient{
+        background: linear-gradient(92deg, #fcb045 70%, #f7a838 90.36%), #e4e5ea;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .target_container{
+        justify-content: start;
+        gap: 14px;
+        
+    }
+    .container_target_line{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+    }
+    .target_block{
+        display: none;
+    }
+    .right_side_screen{
+        text-align: left;
+    }
+    .links_socialNetwork_footer{
+        justify-content: start;
+    }
+    .footer_container{
+        margin-top: 0;
+        padding-top: 41px;
+    }
 }

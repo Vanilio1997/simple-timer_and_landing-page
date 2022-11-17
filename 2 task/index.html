@@ -6,15 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>2 task</title>
     <link rel="stylesheet" href="./index.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="project_container">
-      <div class="purple_ball"></div>
-      <div class="big_red_ball"></div>
-      <div class="small_red_ball"></div>
-      <div class="red_light"></div>
-      <div class="purple_light"></div>
+   <div class="purple_ball"></div>
+      <div class="big_red_ball"/></div>
+      <div class="small_red_ball"/></div>
+       <div class="red_light" /></div>
+      <div class="purple_light" /></div>
+      <div class="purple_light_phone" ></div>
+      <div class="red_light_phone" ></div>  
      <header class="header_container">
       <div class="half_container">
         <div class="left_side_screen"> 
@@ -35,7 +39,7 @@
                 <li>Виджеты</li>
                 <li>Интеграция</li>
                 <li>Кейсы</li>
-                <li>Сертификаты</li>
+                <li class="hiden_element">Сертификаты</li>
               </ul>
             </div>
           </div>
@@ -52,7 +56,7 @@
         </div>
       </div>
      </header>
-     <main>
+     <main class="phone_container">
         <div class="main_container">
           <div class="half_container">
             <div class="left_side_screen">
@@ -72,33 +76,59 @@
                 </span> 
               мы дарим:</span>
               <div class="target_container">
-                <div class="target">
+                <div class="target hiden_element">
                   <h3>Виджеты</h3>
                   <span class="target_discription">
                     30 готовых <br />решений 
                   </span>
                 </div>
-                <div class="target">
+                <div class="target hiden_element">
                   <h3>Dashboard</h3>
                   <span class="target_discription">
                     с показателями<br/>
                     вашего бизнеса
                   </span>
                 </div>
-                <div class="target">
+                <div class="target hiden_element">
                   <h3>Skype Аудит</h3>
                   <span class="target_discription">
                     отдела продаж <br />
                     и CRM системы
                   </span>
                 </div>
-                <div class="target">
+                <div class="target hiden_element">
                   <h3>35 дней</h3>
                   <span class="target_discription">
                     использования  <br/>
                     CRM
                   </span>
                 </div>
+                <div class="target_hidden">
+                  <div class="container_target_line">
+                    <div class="target_line"></div>
+                  </div>
+                  <div> Skype аудит</div> 
+                </div>
+                <div class="target_hidden">
+                  <div class="container_target_line">
+                    <div class="target_line"></div>
+                  </div>
+                  <div>30 виджетов</div>
+                </div>
+                <div class="target_hidden">
+                  <div class="container_target_line">
+                    <div class="target_line"></div>
+                  </div>
+                  <div>30 Dashboard  </div>
+
+                  </div>
+                <div class="target_hidden">
+                  <div class="container_target_line">
+                  <div class="target_line"></div>
+                  </div>
+                  <div>Месяц аmoCRM</div>
+                </div>
+
               </div>
               <div>
                 <button id="get_consultation_btn">Получить консультацию</button>
@@ -110,7 +140,7 @@
      <footer>
         <div class="footer_container">
           <div class="half_container">
-            <div class="left_side_screen">
+            <div class="left_side_screen target_block">
               <div class="footer_company_info">
                 <div>
                   <h4 class="footer_header_text">О КОМПАНИИ</h4>
@@ -136,9 +166,37 @@
                   <li>Благодарственные письма</li>
                   <li>Сертификаты</li>
                   <li>Блог на Youtube</li>
-                  <li>Вопрос/Ответ</li>
+                  <li>Вопрос / Ответ</li>
                 </ul>
               </div>
+              <div class="target_hidden">
+                <div>
+                  <h4 class="footer_header_text">О КОМПАНИИ</h4>
+                </div>
+                <ul  class="footer_company_description">
+                  <li>Партнёрская программа</li>
+                  <li>Вакансии</li>
+                </ul>
+                <div>
+                  <h4 class="footer_header_text">МЕНЮ</h4>
+                </div>  
+                <div>
+                  <ul class="footer_company_description">
+                    <li>Расчёт стоимости</li>
+                    <li>Услуги</li>
+                    <li>Виджеты</li>
+                    <li>Интеграция</li>
+                    <li>Наши клиенты</li>
+                  </ul>
+                  <ul class="footer_company_description">
+                    <li>Кейсы</li>
+                    <li>Благодарственные письма</li>
+                    <li>Сертификаты</li>
+                    <li>Блог на Youtube</li>
+                    <li>Вопрос / Ответ</li>
+                  </ul>
+                </div>
+            </div>
           </div>
             <div class="right_side_screen">
               <h4  class="footer_header_text">КОНТАКТЫ</h4>
@@ -156,5 +214,6 @@
         </div>
      </footer>
     </div>
+    <script src="./script.js" /></script>
   </body>
 </html>
